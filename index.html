@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101014">
+  <title>PayDrama - Short Drama</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">
+      <span class="brand-mark">P</span> Pay<span>Drama</span>
+    </a>
+    <button class="icon-button" id="accountBtn">♙</button>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <span class="eyebrow">YOUR NEXT OBSESSION</span>
+        <h1>Stories that<br><em>keep you watching.</em></h1>
+        <p>Discover romance, revenge, secrets, and unforgettable twists.</p>
+        <button class="primary-button" id="exploreBtn">Explore dramas →</button>
+      </div>
+    </section>
+
+    <section class="section" id="catalogueSection">
+      <div class="section-heading">
+        <h2>Popular dramas</h2>
+        <span id="dramaCount">Loading...</span>
+      </div>
+
+      <input id="searchInput" class
